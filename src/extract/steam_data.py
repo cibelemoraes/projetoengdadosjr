@@ -38,11 +38,11 @@ for page in range(1, 21):
     
     # Extraindo os dados da tabela
     table = soup.find(id="DataTables_Table_0")
-    rows = table.find_all("tr", class_="app")
+    rows = table.find_all("tr", class_="app") #extraindo os dados de todas as tags tr e casses app
     
     for row in rows:
         data_cells = row.find_all("td")
-        games.append({
+        games.append({                       #adicionando os dados a lista games
             "Name": data_cells[2].find("a").text.strip(),
             "Discount_percentage": data_cells[3].text.strip(),
             "Price": data_cells[4].text.strip(),
@@ -58,7 +58,7 @@ for page in range(1, 21):
     if page < 20:
         next_button = driver.find_element(By.CSS_SELECTOR, "button.dt-paging-button.next")
         next_button.click()
-        time.sleep(2)  # Pequeno intervalo para a página carregar
+        time.sleep(2)  # Pequenos intervalo para a página carregar
 
 # Fechando o driver
 driver.quit()
