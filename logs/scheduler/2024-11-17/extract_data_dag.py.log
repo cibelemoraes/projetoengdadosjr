@@ -18954,3 +18954,153 @@ Traceback (most recent call last):
 NameError: name 'transfor_data' is not defined
 [2024-11-17T23:41:02.071+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
 [2024-11-17T23:41:02.143+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.256 seconds
+[2024-11-17T23:41:33.316+0000] {processor.py:186} INFO - Started process (PID=6503) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:41:33.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:41:33.762+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:41:33.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:41:34.886+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:41:34.169+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:41:35.078+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:41:35.300+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 2.048 seconds
+[2024-11-17T23:42:06.727+0000] {processor.py:186} INFO - Started process (PID=6568) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:42:06.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:42:06.749+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:42:06.748+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:42:06.985+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:42:06.899+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:42:07.082+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:42:07.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.731 seconds
+[2024-11-17T23:42:39.470+0000] {processor.py:186} INFO - Started process (PID=6630) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:42:39.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:42:39.497+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:42:39.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:42:39.613+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:42:39.549+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:42:39.678+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:42:39.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.387 seconds
+[2024-11-17T23:43:11.327+0000] {processor.py:186} INFO - Started process (PID=6698) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:43:11.330+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:43:11.345+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:43:11.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:43:11.475+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:43:11.410+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:43:11.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:43:12.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.715 seconds
+[2024-11-17T23:43:42.431+0000] {processor.py:186} INFO - Started process (PID=6762) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:43:42.434+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:43:42.438+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:43:42.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:43:42.568+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:43:42.534+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:43:42.592+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:43:42.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.231 seconds
+[2024-11-17T23:44:12.827+0000] {processor.py:186} INFO - Started process (PID=6826) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:44:12.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:44:12.834+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:44:12.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:44:12.891+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:44:12.870+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:44:12.906+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:44:12.941+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.129 seconds
+[2024-11-17T23:44:46.518+0000] {processor.py:186} INFO - Started process (PID=6889) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:44:46.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:44:46.549+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:44:46.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:44:46.763+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:44:46.696+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:44:46.799+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:44:46.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.541 seconds
+[2024-11-17T23:45:17.431+0000] {processor.py:186} INFO - Started process (PID=6953) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:45:17.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:45:17.438+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:45:17.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:45:17.535+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:45:17.501+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:45:17.557+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:45:17.644+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.233 seconds
+[2024-11-17T23:45:48.474+0000] {processor.py:186} INFO - Started process (PID=7016) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:45:48.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:45:48.510+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:45:48.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:45:48.703+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:45:48.617+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:45:48.742+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:45:48.874+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.473 seconds
+[2024-11-17T23:46:19.924+0000] {processor.py:186} INFO - Started process (PID=7079) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:46:19.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T23:46:19.930+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:46:19.930+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:46:19.978+0000] {logging_mixin.py:190} INFO - [2024-11-17T23:46:19.959+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 48, in <module>
+    python_callable=transfor_data
+                    ^^^^^^^^^^^^^
+NameError: name 'transfor_data' is not defined
+[2024-11-17T23:46:19.994+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T23:46:20.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.133 seconds

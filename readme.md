@@ -1,4 +1,4 @@
-# Projeto: **ETL de Promoções Steam - SteamDB**
+# Projeto: **ETL de Promoções de Vendas Steam - SteamDB**
 
 Bem-vindo ao repositório do **ETL de Promoções Steam - SteamDB**! Este projeto de engenharia de dados automatiza o processo de extração, transformação e carregamento (ETL) de informações sobre promoções disponíveis no site [SteamDB](https://steamdb.info/sales/). Ele organiza e disponibiliza os dados de maneira interativa, armazenando-os no Google BigQuery e conectando-os ao Google Sheets para visualização em tempo real.
 
@@ -34,7 +34,7 @@ Facilitar o acesso a informações atualizadas sobre promoções da Steam, autom
 
 2. **Transformação (Transform):**
    - Limpeza e estruturação dos dados extraídos.
-   - Criação de novos campos, como categorias e cálculos de desconto.
+   - Criação de novos campos, limpeza de dados nulos e transformação de datas
 
 3. **Carregamento (Load):**
    - Os dados transformados são enviados ao Google BigQuery.
