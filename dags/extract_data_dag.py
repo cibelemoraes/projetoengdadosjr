@@ -24,7 +24,7 @@ with DAG(
         'email_on_failure': True,
         'email_on_retry': True
     },
-    schedule='@daily,
+    schedule_interval='@daily',
 ) as dag:
 
     start_task = PythonOperator(

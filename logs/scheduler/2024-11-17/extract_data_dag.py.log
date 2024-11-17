@@ -14287,3 +14287,377 @@ Traceback (most recent call last):
 SyntaxError: unterminated string literal (detected at line 27)
 [2024-11-17T16:53:36.789+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
 [2024-11-17T16:53:36.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.106 seconds
+[2024-11-17T16:54:07.395+0000] {processor.py:186} INFO - Started process (PID=46869) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:54:07.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:54:07.413+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:54:07.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:54:07.505+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:54:07.503+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:54:07.508+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:54:07.575+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.220 seconds
+[2024-11-17T16:54:47.094+0000] {processor.py:186} INFO - Started process (PID=46933) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:54:47.098+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:54:47.102+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:54:47.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:54:47.241+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:54:47.234+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:54:47.257+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:54:47.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.485 seconds
+[2024-11-17T16:55:18.536+0000] {processor.py:186} INFO - Started process (PID=46993) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:55:18.538+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:55:18.543+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:55:18.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:55:18.575+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:55:18.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:55:18.577+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:55:18.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.111 seconds
+[2024-11-17T16:55:48.777+0000] {processor.py:186} INFO - Started process (PID=47056) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:55:48.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:55:48.785+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:55:48.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:55:48.823+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:55:48.820+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:55:48.825+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:55:48.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.132 seconds
+[2024-11-17T16:56:19.362+0000] {processor.py:186} INFO - Started process (PID=47121) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:56:19.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:56:19.368+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:56:19.367+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:56:19.414+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:56:19.402+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:56:19.418+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:56:19.475+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.138 seconds
+[2024-11-17T16:56:50.736+0000] {processor.py:186} INFO - Started process (PID=47181) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:56:50.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:56:50.759+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:56:50.758+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:56:50.822+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:56:50.819+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:56:50.831+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:56:50.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.251 seconds
+[2024-11-17T16:57:21.108+0000] {processor.py:186} INFO - Started process (PID=47245) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:57:21.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:57:21.113+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:57:21.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:57:21.144+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:57:21.141+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:57:21.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:57:21.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.094 seconds
+[2024-11-17T16:57:51.397+0000] {processor.py:186} INFO - Started process (PID=47308) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:57:51.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:57:51.419+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:57:51.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:57:51.457+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:57:51.452+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:57:51.461+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:57:51.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.147 seconds
+[2024-11-17T16:58:21.995+0000] {processor.py:186} INFO - Started process (PID=47373) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:58:21.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:58:22.001+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:58:22.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:58:22.028+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:58:22.026+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:58:22.029+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:58:22.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.097 seconds
+[2024-11-17T16:58:52.479+0000] {processor.py:186} INFO - Started process (PID=47439) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:58:52.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:58:52.485+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:58:52.484+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:58:52.531+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:58:52.528+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:58:52.536+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:58:52.612+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.155 seconds
+[2024-11-17T16:59:23.814+0000] {processor.py:186} INFO - Started process (PID=47503) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:59:23.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:59:23.822+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:59:23.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:59:23.888+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:59:23.885+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:59:23.892+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:59:23.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.200 seconds
+[2024-11-17T16:59:54.836+0000] {processor.py:186} INFO - Started process (PID=47568) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:59:54.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T16:59:54.842+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:59:54.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:59:54.873+0000] {logging_mixin.py:190} INFO - [2024-11-17T16:59:54.871+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T16:59:54.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T16:59:54.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.096 seconds
+[2024-11-17T17:00:25.596+0000] {processor.py:186} INFO - Started process (PID=47633) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:00:25.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:00:25.600+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:00:25.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:00:25.628+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:00:25.625+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T17:00:25.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:00:25.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.094 seconds
+[2024-11-17T17:00:56.395+0000] {processor.py:186} INFO - Started process (PID=47698) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:00:56.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:00:56.400+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:00:56.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:00:56.428+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:00:56.425+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T17:00:56.430+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:00:56.480+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.099 seconds
+[2024-11-17T17:01:33.984+0000] {processor.py:186} INFO - Started process (PID=47754) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:01:33.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:01:33.991+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:01:33.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:01:34.040+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:01:34.037+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/extract_data_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/extract_data_dag.py", line 27
+    schedule='@daily,
+             ^
+SyntaxError: unterminated string literal (detected at line 27)
+[2024-11-17T17:01:34.042+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:01:34.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.173 seconds
+[2024-11-17T17:01:59.097+0000] {processor.py:186} INFO - Started process (PID=47783) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:01:59.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:01:59.148+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:01:59.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:01:59.368+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:02:00.473+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:02:00.472+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:02:00.719+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:02:00.718+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:02:01.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 2.157 seconds
+[2024-11-17T17:02:32.630+0000] {processor.py:186} INFO - Started process (PID=47842) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:02:32.632+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:02:32.646+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:02:32.645+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:02:32.790+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:02:32.931+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:02:32.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:02:33.073+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:02:33.072+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:02:33.157+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.552 seconds
+[2024-11-17T17:03:03.633+0000] {processor.py:186} INFO - Started process (PID=47907) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:03:03.635+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:03:03.638+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:03:03.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:03:03.685+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:03:03.712+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:03:03.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:03:03.784+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:03:03.783+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:03:03.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.215 seconds
+[2024-11-17T17:03:33.982+0000] {processor.py:186} INFO - Started process (PID=47967) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:03:33.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:03:33.988+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:03:33.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:03:34.034+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:03:34.531+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:03:34.530+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:03:34.658+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:03:34.657+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:03:34.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.755 seconds
+[2024-11-17T17:04:05.310+0000] {processor.py:186} INFO - Started process (PID=48032) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:04:05.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:04:05.326+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:04:05.325+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:04:05.393+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:04:05.532+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:04:05.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:04:05.666+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:04:05.665+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:04:05.868+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.597 seconds
+[2024-11-17T17:04:44.728+0000] {processor.py:186} INFO - Started process (PID=48080) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:04:44.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:04:44.763+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:04:44.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:04:44.937+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:04:44.999+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:04:44.998+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:04:45.126+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:04:45.125+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:04:45.253+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.651 seconds
+[2024-11-17T17:05:15.403+0000] {processor.py:186} INFO - Started process (PID=48145) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:05:15.405+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:05:15.408+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:05:15.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:05:15.451+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:05:15.766+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:05:15.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:05:15.838+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:05:15.837+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:05:15.894+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.505 seconds
+[2024-11-17T17:05:46.471+0000] {processor.py:186} INFO - Started process (PID=48203) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:05:46.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:05:46.478+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:05:46.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:05:46.535+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:05:46.599+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:05:46.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:05:46.669+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:05:46.668+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:05:46.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.277 seconds
+[2024-11-17T17:06:17.099+0000] {processor.py:186} INFO - Started process (PID=48266) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:06:17.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:06:17.105+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:06:17.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:06:17.145+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:06:17.171+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:06:17.170+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:06:17.246+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:06:17.245+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:06:17.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.212 seconds
+[2024-11-17T17:06:47.507+0000] {processor.py:186} INFO - Started process (PID=48330) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:06:47.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:06:47.513+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:06:47.512+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:06:47.546+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:06:47.782+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:06:47.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:06:47.829+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:06:47.829+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:06:47.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.374 seconds
+[2024-11-17T17:07:18.158+0000] {processor.py:186} INFO - Started process (PID=48392) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:07:18.161+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:07:18.166+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:07:18.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:07:18.227+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:07:18.278+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:07:18.277+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:07:18.371+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:07:18.365+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:07:18.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.461 seconds
+[2024-11-17T17:07:49.937+0000] {processor.py:186} INFO - Started process (PID=48457) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:07:49.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:07:49.997+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:07:49.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:07:50.161+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:07:50.242+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:07:50.242+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:07:50.562+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:07:50.561+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:07:50.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.891 seconds
+[2024-11-17T17:08:21.478+0000] {processor.py:186} INFO - Started process (PID=48521) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:08:21.524+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:08:21.543+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:08:21.542+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:08:22.203+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:08:23.279+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:08:23.278+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:08:23.714+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:08:23.701+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:08:23.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 2.524 seconds
+[2024-11-17T17:08:55.039+0000] {processor.py:186} INFO - Started process (PID=48556) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:08:55.041+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:08:55.048+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:08:55.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:08:55.170+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:08:55.274+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:08:55.273+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:08:55.351+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:08:55.350+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:08:55.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.389 seconds
+[2024-11-17T17:09:25.858+0000] {processor.py:186} INFO - Started process (PID=48619) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:09:25.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:09:25.863+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:09:25.863+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:09:25.914+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:09:26.285+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:09:26.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:09:26.423+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:09:26.422+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:09:26.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.764 seconds
+[2024-11-17T17:09:57.286+0000] {processor.py:186} INFO - Started process (PID=48684) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:09:57.289+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:09:57.293+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:09:57.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:09:57.347+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:09:57.404+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:09:57.403+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:09:57.476+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:09:57.475+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:09:57.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 0.266 seconds
+[2024-11-17T17:10:28.004+0000] {processor.py:186} INFO - Started process (PID=48749) to work on /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:10:28.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/extract_data_dag.py for tasks to queue
+[2024-11-17T17:10:28.012+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:10:28.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:10:28.096+0000] {processor.py:925} INFO - DAG(s) 'extract_dag' retrieved from /opt/airflow/dags/extract_data_dag.py
+[2024-11-17T17:10:28.870+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:10:28.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-17T17:10:29.130+0000] {logging_mixin.py:190} INFO - [2024-11-17T17:10:29.129+0000] {dag.py:4180} INFO - Setting next_dagrun for extract_dag to 2024-11-17 00:00:00+00:00, run_after=2024-11-18 00:00:00+00:00
+[2024-11-17T17:10:29.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/extract_data_dag.py took 1.579 seconds

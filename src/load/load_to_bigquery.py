@@ -10,7 +10,7 @@ credencial = service_account.Credentials.from_service_account_file(
     scopes=['https://www.googleapis.com/auth/bigquery']
 )
 # carregando o arquivo csv
-df = pd.read_csv(r"D:\biblioteca_projeto\steam_sales.csv")
+df = pd.read_csv(r"D:\biblioteca_projeto\data_transfor.csv")
 df.head()
 #print(df.head())
 
