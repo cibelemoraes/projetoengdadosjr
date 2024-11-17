@@ -1,0 +1,33 @@
+# Apache Airflow
+apache-airflow==2.7.1  # Certifique-se de ajustar para a versão usada no projeto
+
+# Providers do Airflow
+apache-airflow-providers-google==10.0.0  # BigQuery e Google Cloud Storage
+apache-airflow-providers-postgres==5.0.0  # PostgreSQL
+apache-airflow-providers-docker==3.0.0  # Integração com Docker
+
+# Manipulação de dados
+pandas==2.1.0
+pyarrow==13.0.0  # Para trabalhar com arquivos Parquet
+fastparquet==2024.1.0  # Alternativa ao pyarrow, caso necessário
+
+# Google Cloud
+google-cloud-bigquery==3.12.0
+google-cloud-storage==2.11.0
+google-api-python-client==2.95.0  # Interação com APIs do Google
+google-auth==2.24.0
+google-auth-oauthlib==1.2.0  # Para autenticação OAuth se necessário
+
+# PostgreSQL
+psycopg2-binary==2.9.7
+
+# Utilitários
+requests==2.31.0  # Para manipular requisições HTTP
+python-dotenv==1.0.0  # Para gerenciar variáveis de ambiente
+
+# Observabilidade (opcional)
+openlineage-airflow==0.19.0  # Rastreio de pipelines e tarefas
+
+# Ferramentas de desenvolvimento e depuração
+pytest==7.4.2  # Para testes unitários
+black==23.9.1  # Para formatação de código

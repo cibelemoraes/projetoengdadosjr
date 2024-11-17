@@ -24,7 +24,7 @@ with DAG(
     'extract_dag',
     default_args={      #informações de configurações da minha dag
         'owner': 'Cibele',
-        'depends_on_past': True,
+        'depends_on_past': False,
         'start_date': datetime(2024, 11, 17), #data de inicio
         'email': ['cibeledaniel863@gmail.com'],
         'email_on_failure': True,
