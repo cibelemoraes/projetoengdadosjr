@@ -8,35 +8,35 @@ from bs4 import BeautifulSoup
 import logging
 import time
 
-# Configuração do logging
+# configuração do logging
 logging.basicConfig(level=logging.INFO)
 
-# Caminho para o geckodriver
+# caminho para o geckodriver
 geckodriver_path = r'D:\\biblioteca_projeto\\geckodriver.exe'
 
-# Inicializando o WebDriver
+# inicializando o WebDriver
 service = Service(geckodriver_path)
 driver = webdriver.Firefox(service=service)
 
-# Acessando o site
+# acessando o site onde devemos fazer o webscrapping
 url = 'https://steamdb.info/sales/'
 driver.get(url)
 
-# Lista para armazenar os dados de todas as páginas
+# lista que criei para armazenar os dados de todas as páginas
 games = []
 
-# Loop para navegar entre as páginas (1 a 20)
+# loop para navegar entre as páginas (1 a 20)
 for page in range(1, 21):
-    # Aguarda a tabela carregar
+    # aguarda a tabela carregar
     WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.ID, "DataTables_Table_0"))
     )
 
-    # Extrai o conteúdo da página atual
+    # extrai o conteúdo da página atual
     html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')
     
-    # Extraindo os dados da tabela
+    # extraindo os dados da tabela
     table = soup.find(id="DataTables_Table_0")
     rows = table.find_all("tr", class_="app") #extraindo os dados de todas as tags tr e casses app
     
@@ -54,16 +54,16 @@ for page in range(1, 21):
     
     logging.info(f"Dados extraídos da página {page} com sucesso.")
     
-    # Tenta clicar no botão da próxima página, exceto na última
+    # tantando clicar no botão da próxima página, exceto na ultima
     if page < 20:
         next_button = driver.find_element(By.CSS_SELECTOR, "button.dt-paging-button.next")
         next_button.click()
-        time.sleep(2)  # Pequenos intervalo para a página carregar
+        time.sleep(2)  # da pequenos intervalo para a página carregar
 
-# Fechando o driver
+# fechando o driver
 driver.quit()
 
-# Criando o DataFrame
+# friando o DataFrame
 df = pd.DataFrame(games)
 logging.info("DataFrame criado com sucesso")
 print(df)
