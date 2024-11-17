@@ -30,7 +30,7 @@ with DAG(
         'email_on_failure': True,
         'email_on_retry': True
     },
-    schedule_interval='@daily', #coloquei ela com a frequencia  diaria 
+    schedule_interval='0 10 * * *', #coloquei ela com a frequencia  diaria todos os dias as 10h da manha
 ) as dag:
 
     start_task = PythonOperator(
