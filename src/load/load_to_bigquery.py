@@ -3,7 +3,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 from pandas_gbq import to_gbq
 
-# Carregue suas credenciais
+# Carregue minhas credenciais
 
 credencial = service_account.Credentials.from_service_account_file(
     r'D:\\biblioteca_projeto\\meu-primeiro-projet-403011-6924ec2e39ab.json',
@@ -13,7 +13,7 @@ credencial = service_account.Credentials.from_service_account_file(
 df = pd.read_csv(r"D:\biblioteca_projeto\data_transfor.csv")
 df.head()
 
-# Definição do esquema para o BigQuery
+# Definição do meu esquema para o BigQuery
 table_schema = [
     {"name": "Name", "type": "STRING"},
     {"name": "Discount_percentage", "type": "STRING"},
@@ -26,8 +26,8 @@ table_schema = [
 
 #print(df.head())
 
-#Envie o DataFrame para o BigQuery
-df.to_gbq(destination_table='meu-primeiro-projet-403011.MEUPRIMEIRO.data_transfor', # substitua pelo nome correto da sua tabela nesse steam_sales
+#enviando para o DataFrame para o BigQuery
+df.to_gbq(destination_table='meu-primeiro-projet-403011.MEUPRIMEIRO.data_transfor', # coloque o nome da tabela no final data_transfor
           project_id='meu-primeiro-projet-403011',
           if_exists='replace', 
           credentials=credencial,
