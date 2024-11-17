@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "meu-primeiro-projet-403011",
+  "private_key_id": "6924ec2e39ab83422bdada951c3e923905353e64",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC1Bx2kzqXphNCZ\n1v1Zh91QrGmYjdxtqGesamtgSr+8xPxMNhk6lEPev4GBVSb1ZNx5jei1vNcu7ENQ\nJ6x1RzHeAqSEWBmZYj82k//+03Jm41tE45cUwq1H2+r3bWxCu2pf1ayJKMcXt6Xf\n/39CP3TXlxLwpuSGLDbBV6nxsc5d7fw6lJHpcb/m+hByOnpx1JMvYBSEILEf1XCP\na5Y2W/3mV8Hj3F2g5fy+Gl6ijxqS7Q0QvmM+iAwXV68W3LzxWVnaC6Xc0b5hAjmJ\nHZe4Eqhg+Avbiwq99RoPTPa2jVuAiMpE6SJSCewfmhgtrXSwXjPb5g6unTvaOkcC\nLqTER1RpAgMBAAECggEAK9tDuAH1aX/K/r46Ria3fBws/++8W5etODTW+y7YyU2K\n1xbTIWE6mRwZrqDXzaMoE83It0C+/AfyndhivE3pe6D1xPdICmQmLt2Hqy+EW39Q\nxP2DRF0OmGZjxBpPHFKlyH5ubJNDuo/8IGqYZM8VSka4KLOyEPxkro4DpsGeHpyJ\nRU4PDqwLMwYq/OjQXGpAZ+3cELdY3BEaLLyBndfapklauxq1O45RZiV7BsOtkdcc\nfk60W0LbGxQ7LAZWc9dIJkwV8UDlo2eTjH2iEZhiy0dybS8K63o1xXs9UHV579dH\ngkpciAJ2fvluXHq3JmZoJwlzs3M0+0408fgdg1CANQKBgQDcOWiM+cIyTYXCm3r+\nJxLAj7xAPJoLlYifHVRD2gtE+d6ZUnnOlx9/BtC5sK595kloW/1RUnquGos8S2G2\nDBIwgs8dVfGfqmKhsBnHl7claCX+QPXe2XjEi4uhq+pndt/JIGXejt9gb0LRFBc3\nJoVVhSfBes0Kuhj2bu2MeOwYzQKBgQDSb5890Bwh1vG1wDXTOCDe7VX1vB8zJePt\n+aHOd5bKwyf+2j+8+4FMBO7r6dMHzMhuqi6RQ3m7jesn7rLX8MZArr1xRFj/P0Sv\nONKw8Yn8ZZllKl7M+NPhuB/zCNN0fXkkyG6xmFVsKfqytwmfnwAiBeOvP4dSaq3W\nOMJQhdpaDQKBgGl9cnB9PyHbcqRq1/qgeuIUuAdJQD0mTwBxCylJbDaJPrDRChoE\n2AiAGkGouZ0DT8yWq/xldvCpNGMYdODAXYIxVsbloU1rT73F3kN2kDtx7SkisuQh\n5jC365XxBOK01bPBOirm42eNRENkzU4UvK/fjdCnY0qtJEH/lvi//9BNAoGBAJ+4\nFPdHk3KjwAWhA7lzKo/JN6sxw8SAh8VB6WvaHNt80EiAwkvf4L0gKW9po8CRz7ce\n+AVNX4HZL5i5dYisuOyzNBpaM+pXzPvpdxDR41dsjcbZJ+cPHVJ++9Ds7AHIkkA2\n2L12z68vFZa7klRSzDkGm0+SOlV1nsevgNy5G4epAoGAXFjgfhN9H5kUSV7tmGTv\n3/Jurdq80b/yG4/kbSzavVVTZhl2BU4+1/ar7uzhe6AKDMq5HLrGZhlotHYgqVA5\nPrkS/2iWm+yJA+9NvdQkTkCcSuOewkibFWR36M01noXwjh+w0Yyu8pP4M9cLNlsN\nSoTWWHu6vFdYPxO/td6VacY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "projetogame@meu-primeiro-projet-403011.iam.gserviceaccount.com",
+  "client_id": "108738390385387613254",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/projetogame%40meu-primeiro-projet-403011.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

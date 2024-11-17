@@ -27,7 +27,7 @@ df['Release'] = df['Release'].apply(converte_datas)
 df['Jogos Gratis'] = df['Price'].apply(lambda x: 'free' if x== 'R$ 0,00' else '')
 
 #print(df['Release'].head())
-#print(df)
+print(df)
 
 # Salvando o DataFrame modificado
 df.to_csv('D:\\biblioteca_projeto\\data_transfor.csv', index=False)
