@@ -54,7 +54,7 @@ for page in range(1, 21):
     
     logging.info(f"Dados extraídos da página {page} com sucesso.")
     
-    # tantando clicar no botão da próxima página, exceto na ultima
+    # tentando clicar no botão da próxima página, exceto na ultima
     if page < 20:
         next_button = driver.find_element(By.CSS_SELECTOR, "button.dt-paging-button.next")
         next_button.click()
@@ -63,7 +63,7 @@ for page in range(1, 21):
 # fechando o driver
 driver.quit()
 
-# friando o DataFrame
+# criando o DataFrame
 df = pd.DataFrame(games)
 logging.info("DataFrame criado com sucesso")
 print(df)

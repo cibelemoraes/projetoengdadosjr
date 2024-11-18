@@ -1,0 +1,21 @@
+[2024-11-18T00:00:11.146+0000] {processor.py:186} INFO - Started process (PID=8704) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:00:11.148+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-11-18T00:00:11.151+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:00:11.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:00:11.180+0000] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:00:11.235+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:00:11.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T00:00:11.264+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:00:11.263+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2024-11-18T00:00:11.297+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.165 seconds
+[2024-11-18T00:00:53.827+0000] {processor.py:186} INFO - Started process (PID=8788) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:00:53.829+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-11-18T00:00:53.832+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:00:53.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:00:53.861+0000] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:00:53.914+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:00:53.913+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T00:00:53.950+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:00:53.950+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2024-11-18T00:00:54.011+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.198 seconds
+[2024-11-18T00:01:34.025+0000] {processor.py:186} INFO - Started process (PID=8860) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:01:34.028+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2024-11-18T00:01:34.035+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:01:34.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:01:34.085+0000] {processor.py:925} INFO - DAG(s) 'example_task_group_decorator' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2024-11-18T00:01:34.159+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:01:34.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-18T00:01:34.205+0000] {logging_mixin.py:190} INFO - [2024-11-18T00:01:34.204+0000] {dag.py:4180} INFO - Setting next_dagrun for example_task_group_decorator to None, run_after=None
+[2024-11-18T00:01:34.255+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.268 seconds

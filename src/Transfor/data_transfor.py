@@ -2,11 +2,11 @@ import pandas as pd
 import datetime
 import re
 
-#carregando o arquivo CSV
+#carregando o meu arquivo CSV
 df = pd.read_csv('D:\\biblioteca_projeto\\steam_sales.csv')
 
 
-#Removendo Linhas Vazias
+#removendo Linhas Vazias
 df = df.dropna(subset=['Name', 'Release'])
 
 
@@ -29,7 +29,7 @@ df['Jogos Gratis'] = df['Price'].apply(lambda x: 'free' if x== 'R$ 0,00' else ''
 #print(df['Release'].head())
 print(df)
 
-# Salvando o DataFrame modificado
+# salvando o meu DataFrame modificado
 df.to_csv('D:\\biblioteca_projeto\\data_transfor.csv', index=False)
     
 
